@@ -16,3 +16,5 @@
 
 >*When hovering over a button, the button should change color*
 
+The original commits history are on a different repository and can be found below:
+https://github.com/willasur/willasur/tree/master/docs
