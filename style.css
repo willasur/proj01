@@ -1,6 +1,5 @@
 *{
 box-sizing: border-box;
-/*font-family:Verdana, Geneva, Tahoma, sans-serif;*/
 font-family: 'Bai Jamjuree', sans-serif;
 font-weight:lighter;
 font-size:large;
@@ -60,8 +59,7 @@ button:hover {
     font-family: Technology; /* font to mimic LCD display */
 }    
 
-/* font face for LCD display linked */
-
+/* font face for LCD display linked locally */
 @font-face {
     font-family: Technology;
     src: url(./Technology.ttf);
