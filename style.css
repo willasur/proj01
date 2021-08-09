@@ -1,0 +1,72 @@
+*{
+box-sizing: border-box;
+/*font-family:Verdana, Geneva, Tahoma, sans-serif;*/
+font-family: 'Bai Jamjuree', sans-serif;
+font-weight:lighter;
+font-size:large;
+}
+
+body {
+margin: 0;
+background: white;
+}
+
+.calgrid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 100px);
+    position: relative;
+}
+
+button { cursor: pointer;
+         background-color: white;
+         border: none;
+         color: gray;
+         border-radius: 5px;
+         margin: 5px;
+         border: 1px solid lightgray; /* button outline */
+         font-weight: 600;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: black; /* change hover text color */
+    box-shadow: 0 10px 10px 0 gray, 0 10px 10px 0 lightgray; 
+    transition: box-shadow 0.3s ease-in-out; /*slowed down shadow */   
+}
+
+#wide {
+    grid-column: span 2;
+} /*expanded buttons */
+
+/*input box */
+.lcdscreen { 
+    grid-column: 1 / 5;
+    background-color: white;
+    text-align:right;
+    margin: 0;
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    border-style:none;
+    width: 100%;
+    height: 85%;
+    border: 1px solid lightgray;
+    color: gray; /* display font color */
+    outline: none; /* remove input display outline */
+    font-family: Technology; /* font to mimic LCD display */
+}    
+
+/* font face for LCD display linked */
+
+@font-face {
+    font-family: Technology;
+    src: url(./Technology.ttf);
+}
+
+
+
+
