@@ -14,4 +14,5 @@
 
 >*When hovering over a button, the cursor should change to a hand rather than an arrow*
 
->*When hovering over a button, the button should change coor*
+>*When hovering over a button, the button should change color*
+
